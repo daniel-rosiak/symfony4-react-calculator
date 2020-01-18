@@ -1,0 +1,15 @@
+{
+	"EN": "EN",
+	"DE": "DE",
+	"PL": "PL",
+	"home.calc.current": "current",
+	"home.calc.result": "result",
+	"header.info": "CalcuCo",
+	"footer.info": "CalcuCo by Megasoft, 1990",
+	"loader.info": "loading...",
+	"report.info": "Reports",
+	"report.button.day": "today",
+	"report.button.month": "last month",
+	"report.button.year": "last year",
+	"globalinfo.api_error": "Api error occured"
+}

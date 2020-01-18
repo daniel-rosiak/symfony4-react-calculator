@@ -1,0 +1,29 @@
+.calc {
+  text-align:right;
+  button {
+    padding: 20px 28px;
+    margin: 0 5px;
+    font-size:1.5em;
+  }
+
+  .display {
+    div {
+      width: 100%;
+      input {
+        width: 100%;
+        text-align: right;
+        outline: none;
+        padding: 20px;
+        font-size: 2em;
+        color: $gray;
+      }
+      span {
+        color: $gray;
+      }
+    }
+  }
+
+  .numbers, .operations {
+    margin:20px 0;
+  }
+}

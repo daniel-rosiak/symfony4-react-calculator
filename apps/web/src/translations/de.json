@@ -1,0 +1,15 @@
+{
+	"EN": "EN",
+	"DE": "DE",
+	"PL": "PL",
+	"home.calc.current": "Aktuell",
+	"home.calc.result": "Resultat",
+	"header.info": "CalcuCo",
+	"footer.info": "CalcuCo by Megasoft, 1990",
+	"loader.info": "Geladen...",
+	"report.info": "Berichte",
+	"report.button.day": "Tag",
+	"report.button.month": "Monat",
+	"report.button.year": "Jahr",
+	"globalinfo.api_error": "Ein API-Fehler ist aufgetreten"
+}

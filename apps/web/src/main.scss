@@ -1,0 +1,16 @@
+/* all variables */
+@import "styles/utils";
+
+/* main / root */
+@import "styles/normalize";
+@import "styles/fonts";
+
+/* general / common */
+@import "styles/general";
+
+/* components */
+@import "styles/components/header";
+@import "styles/components/footer";
+@import "styles/components/container";
+@import "styles/components/calc";
+@import "styles/components/globalinfo";

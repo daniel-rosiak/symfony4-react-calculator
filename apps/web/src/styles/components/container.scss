@@ -1,0 +1,21 @@
+.container {
+  position: relative;
+
+  .main {
+    padding: 20px 0 40px;
+    min-height: 150px;
+    h3 {
+      margin: 30px 0 30px;
+    }
+
+    .report {
+      button {
+        padding:2px 10px;
+        margin-right:10px;
+      }
+    }
+  }
+
+}
+
+

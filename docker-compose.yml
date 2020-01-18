@@ -1,0 +1,37 @@
+version: '3'
+services:
+    apache:
+        build: ./docker/apache
+        container_name: calcu_co_apache
+        ports:
+          - 80:80
+        volumes:
+          - ./apps:/home/wwwroot
+          - ./docker/config/vhosts:/etc/apache2/sites-enabled
+          - ./logs/apache/:/var/log/apache2
+        environment:
+          - VIRTUAL_HOST=calcu-co.api.lo,calcu-co.web.lo
+        depends_on:
+          - php
+
+    db:
+        image: mysql:5.7.22
+        container_name: calcu_co_db
+        restart: always
+        environment:
+            MYSQL_ROOT_PASSWORD: calcu_co
+            MYSQL_DATABASE: calcu_co
+            MYSQL_USER: calcu_co
+            MYSQL_PASSWORD: calcu_co
+        volumes:
+            - ./docker/data/db/mysql:/var/lib/mysql
+        command: --innodb-use-native-aio=0
+
+    php:
+        build: ./docker/php
+        container_name: calcu_co_php
+        volumes:
+          - ./apps:/home/wwwroot
+          - ./logs/api/:/home/wwwroot/api/var/log
+        depends_on:
+          - db

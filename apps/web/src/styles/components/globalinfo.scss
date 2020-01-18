@@ -1,0 +1,12 @@
+.global-info {
+  position:absolute;
+  top:0%;
+  width:100%;
+  background-color: $gray;
+
+  div {
+    text-align:center;
+    color:white;
+    padding:10px;
+  }
+}
