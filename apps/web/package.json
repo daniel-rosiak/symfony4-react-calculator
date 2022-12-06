@@ -39,7 +39,7 @@
     "postcss-loader": "2.0.8",
     "promise": "8.0.1",
     "prop-types": "^15.6.2",
-    "qs": "^6.5.2",
+    "qs": "^6.5.3",
     "raf": "3.4.0",
     "rc-time-picker": "^3.3.1",
     "react": "^16.3.2",
